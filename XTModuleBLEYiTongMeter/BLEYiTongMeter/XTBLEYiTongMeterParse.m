@@ -7,8 +7,8 @@
 //
 
 #import "XTBLEYiTongMeterParse.h"
-#import "DesEntry.h"
-#import "XTUtils.h"
+#import "XTUtils+Date.h"
+#import "XTUtils+PriceGroup.h"
 
 @implementation XTBLEYiTongMeterParse
 

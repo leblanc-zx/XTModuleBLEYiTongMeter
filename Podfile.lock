@@ -27,6 +27,7 @@ PODS:
 DEPENDENCIES:
   - XTComponentBLE
   - XTComponentSocket
+  - XTComponentUtils
 
 SPEC REPOS:
   https://github.com/leblanc-zx/ZXSpecs.git:
@@ -39,6 +40,6 @@ SPEC CHECKSUMS:
   XTComponentSocket: 83e0d49e342272f5f8bfa54844aff9b1153720f2
   XTComponentUtils: cdea69754d5468ed773b6587c818a8c2f076636e
 
-PODFILE CHECKSUM: da206691db680d9bc3b9b49c68c02b574d11900f
+PODFILE CHECKSUM: d97035cb5c6d14a4f610a44d0219a01f4faf6dd7
 
 COCOAPODS: 1.5.0

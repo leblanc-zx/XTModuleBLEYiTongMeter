@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <XTPriceGroupInfo.h>
+#import "XTPriceGroupInfo.h"
 
 /** 检查表信息-----第一帧数据*/
 @interface XTYiTongCheckMeterFirst : NSObject

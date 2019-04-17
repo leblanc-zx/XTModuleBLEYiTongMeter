@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XTModuleBLEYiTongMeter'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'XTModuleBLEYiTongMeter.描述'
 
 # This description is used to generate tags and improve search results.
@@ -55,4 +55,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'XTComponentSocket'
   s.dependency 'XTComponentBLE'
+  s.dependency 'XTComponentUtils'
 end
