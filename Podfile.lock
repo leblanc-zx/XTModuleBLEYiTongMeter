@@ -1,0 +1,44 @@
+PODS:
+  - XTComponentBLE (1.0.4):
+    - XTComponentBLE/BLE4 (= 1.0.4)
+    - XTComponentBLE/Models (= 1.0.4)
+  - XTComponentBLE/BLE4 (1.0.4):
+    - XTComponentBLE/Models
+  - XTComponentBLE/Models (1.0.4)
+  - XTComponentSocket (1.0.5):
+    - XTComponentSocket/LocalDependency (= 1.0.5)
+    - XTComponentSocket/Socket (= 1.0.5)
+    - XTComponentUtils (~> 1.1.1)
+  - XTComponentSocket/LocalDependency (1.0.5):
+    - XTComponentUtils (~> 1.1.1)
+  - XTComponentSocket/Socket (1.0.5):
+    - XTComponentSocket/LocalDependency
+    - XTComponentUtils (~> 1.1.1)
+  - XTComponentUtils (1.1.9):
+    - XTComponentUtils/LocalDependency (= 1.1.9)
+    - XTComponentUtils/Models (= 1.1.9)
+    - XTComponentUtils/XTUtils (= 1.1.9)
+  - XTComponentUtils/LocalDependency (1.1.9)
+  - XTComponentUtils/Models (1.1.9)
+  - XTComponentUtils/XTUtils (1.1.9):
+    - XTComponentUtils/LocalDependency
+    - XTComponentUtils/Models
+
+DEPENDENCIES:
+  - XTComponentBLE
+  - XTComponentSocket
+
+SPEC REPOS:
+  https://github.com/leblanc-zx/ZXSpecs.git:
+    - XTComponentBLE
+    - XTComponentSocket
+    - XTComponentUtils
+
+SPEC CHECKSUMS:
+  XTComponentBLE: 4778aab9894fcac62e3ec09675eda61ac1156dcb
+  XTComponentSocket: 83e0d49e342272f5f8bfa54844aff9b1153720f2
+  XTComponentUtils: cdea69754d5468ed773b6587c818a8c2f076636e
+
+PODFILE CHECKSUM: da206691db680d9bc3b9b49c68c02b574d11900f
+
+COCOAPODS: 1.5.0
