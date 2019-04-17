@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1846E5032267233D00C4824D /* XTSocketManager+BLEYiTongMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846E5012267233D00C4824D /* XTSocketManager+BLEYiTongMeter.h */; };
+		1846E5042267233D00C4824D /* XTSocketManager+BLEYiTongMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846E5022267233D00C4824D /* XTSocketManager+BLEYiTongMeter.m */; };
 		18F64B07226718C10039B4DE /* XTBLEYiTongMeterParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F64B02226718C00039B4DE /* XTBLEYiTongMeterParse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18F64B08226718C10039B4DE /* XTBLEYiTongMeterParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F64B03226718C00039B4DE /* XTBLEYiTongMeterParse.m */; };
 		18F64B09226718C10039B4DE /* XTBLEYiTongMeterRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F64B04226718C00039B4DE /* XTBLEYiTongMeterRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1846E5012267233D00C4824D /* XTSocketManager+BLEYiTongMeter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XTSocketManager+BLEYiTongMeter.h"; sourceTree = "<group>"; };
+		1846E5022267233D00C4824D /* XTSocketManager+BLEYiTongMeter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XTSocketManager+BLEYiTongMeter.m"; sourceTree = "<group>"; };
 		18F64AF6226718A20039B4DE /* XTModuleBLEYiTongMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XTModuleBLEYiTongMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F64AFA226718A20039B4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F64B02226718C00039B4DE /* XTBLEYiTongMeterParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBLEYiTongMeterParse.h; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 		18F64B0F226719860039B4DE /* Socket */ = {
 			isa = PBXGroup;
 			children = (
+				1846E5012267233D00C4824D /* XTSocketManager+BLEYiTongMeter.h */,
+				1846E5022267233D00C4824D /* XTSocketManager+BLEYiTongMeter.m */,
 			);
 			path = Socket;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				18F64B1C22671C1F0039B4DE /* XTYiTongMeterInfo.h in Headers */,
 				18F64B1A22671C1F0039B4DE /* XTYiTongHistoryDay.h in Headers */,
 				18F64B09226718C10039B4DE /* XTBLEYiTongMeterRequest.h in Headers */,
+				1846E5032267233D00C4824D /* XTSocketManager+BLEYiTongMeter.h in Headers */,
 				18F64B07226718C10039B4DE /* XTBLEYiTongMeterParse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1846E5042267233D00C4824D /* XTSocketManager+BLEYiTongMeter.m in Sources */,
 				18F64B2122671C1F0039B4DE /* XTYiTongMeterInfo.m in Sources */,
 				18F64B1E22671C1F0039B4DE /* XTYiTongRechargeResult.m in Sources */,
 				18F64B1D22671C1F0039B4DE /* XTYiTongCheckMeter.m in Sources */,
