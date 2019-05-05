@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XTModuleBLEYiTongMeter'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'XTModuleBLEYiTongMeter.描述'
 
 # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   end
 
   s.subspec 'BLEYiTongMeter' do |bleYiTongMeter|
-  bleYiTongMeter.source_files = 'XTModuleBLEYiTongMeter/BLECardReader/*'
+  bleYiTongMeter.source_files = 'XTModuleBLEYiTongMeter/BLEYiTongMeter/*'
   bleYiTongMeter.dependency 'XTModuleBLEYiTongMeter/Models'
   end
 
@@ -56,4 +56,5 @@ TODO: Add long description of the pod here.
   s.dependency 'XTComponentSocket'
   s.dependency 'XTComponentBLE'
   s.dependency 'XTComponentUtils'
+  s.dependency 'XTBLELogManager'
 end

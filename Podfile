@@ -6,4 +6,5 @@ target 'XTModuleBLEYiTongMeter' do
   pod 'XTComponentSocket'
   pod 'XTComponentBLE'
   pod 'XTComponentUtils'
+  pod 'XTBLELogManager'
 end
