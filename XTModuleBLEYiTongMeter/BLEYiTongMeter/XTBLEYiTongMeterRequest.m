@@ -66,7 +66,7 @@ static id _instace;
     //log
     [requestManager log_method:@"读表基本信息命令" startFilter:@"6830A9A2" endFilter:@"长度：168    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -129,7 +129,7 @@ static id _instace;
     //log
     [requestManager log_method:@"充值命令" startFilter:@"683089B9" endFilter:@"长度：191    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -196,7 +196,7 @@ static id _instace;
     //log
     [requestManager log_method:@"校时命令" startFilter:@"6830E910" endFilter:@"长度：22    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -257,7 +257,7 @@ static id _instace;
     //log
     [requestManager log_method:@"读历史回抄数据命令" startFilter:@"6830C0E4" endFilter:@"长度：234    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -321,7 +321,7 @@ static id _instace;
     //log
     [requestManager log_method:@"安检命令" startFilter:@"6830C60B" endFilter:@"长度：17    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -388,7 +388,7 @@ static id _instace;
     //log
     [requestManager log_method:@"设置表底数命令" startFilter:@"6830B90E" endFilter:@"长度：20    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -451,7 +451,7 @@ static id _instace;
     //log
     [requestManager log_method:@"应急卡命令" startFilter:@"6830C50B" endFilter:@"长度：17    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -518,7 +518,7 @@ static id _instace;
     //log
     [requestManager log_method:@"检查命令第一帧" startFilter:@"6830C1C8" endFilter:@"长度：206    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -579,7 +579,7 @@ static id _instace;
     //log
     [requestManager log_method:@"检查命令第二帧" startFilter:@"6830C2E0" endFilter:@"长度：230    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -642,7 +642,7 @@ static id _instace;
     //log
     [requestManager log_method:@"参数设置卡命令" startFilter:@"6830C40B" endFilter:@"长度：17    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {
@@ -711,7 +711,7 @@ static id _instace;
     //log
     [requestManager log_method:@"清零卡命令" startFilter:@"6830C30B" endFilter:@"长度：17    校验和：是"];
     
-    [requestManager sendData:requestData startFilter:^BOOL(NSData *receiveData) {
+    [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
         NSError *error = [parseManager findErrorWithData:receiveData];
         if (error) {

@@ -1,33 +1,30 @@
 PODS:
-  - XTBLELogManager (1.0.1):
-    - XTBLELogManager/BLELog (= 1.0.1)
+  - XTBLELogManager (1.0.4):
+    - XTBLELogManager/BLELog (= 1.0.4)
     - XTComponentBLE
     - XTComponentUtils
-  - XTBLELogManager/BLELog (1.0.1):
+  - XTBLELogManager/BLELog (1.0.4):
     - XTComponentBLE
     - XTComponentUtils
-  - XTComponentBLE (1.0.9):
-    - XTComponentBLE/BLE4 (= 1.0.9)
-    - XTComponentBLE/Models (= 1.0.9)
-  - XTComponentBLE/BLE4 (1.0.9):
+  - XTComponentBLE (1.1.1):
+    - XTComponentBLE/BLE4 (= 1.1.1)
+    - XTComponentBLE/Models (= 1.1.1)
+  - XTComponentBLE/BLE4 (1.1.1):
     - XTComponentBLE/Models
-  - XTComponentBLE/Models (1.0.9)
-  - XTComponentSocket (1.0.5):
-    - XTComponentSocket/LocalDependency (= 1.0.5)
-    - XTComponentSocket/Socket (= 1.0.5)
-    - XTComponentUtils (~> 1.1.1)
-  - XTComponentSocket/LocalDependency (1.0.5):
-    - XTComponentUtils (~> 1.1.1)
-  - XTComponentSocket/Socket (1.0.5):
+  - XTComponentBLE/Models (1.1.1)
+  - XTComponentSocket (1.0.6):
+    - XTComponentSocket/LocalDependency (= 1.0.6)
+    - XTComponentSocket/Socket (= 1.0.6)
+  - XTComponentSocket/LocalDependency (1.0.6)
+  - XTComponentSocket/Socket (1.0.6):
     - XTComponentSocket/LocalDependency
-    - XTComponentUtils (~> 1.1.1)
-  - XTComponentUtils (1.1.9):
-    - XTComponentUtils/LocalDependency (= 1.1.9)
-    - XTComponentUtils/Models (= 1.1.9)
-    - XTComponentUtils/XTUtils (= 1.1.9)
-  - XTComponentUtils/LocalDependency (1.1.9)
-  - XTComponentUtils/Models (1.1.9)
-  - XTComponentUtils/XTUtils (1.1.9):
+  - XTComponentUtils (1.2.2):
+    - XTComponentUtils/LocalDependency (= 1.2.2)
+    - XTComponentUtils/Models (= 1.2.2)
+    - XTComponentUtils/XTUtils (= 1.2.2)
+  - XTComponentUtils/LocalDependency (1.2.2)
+  - XTComponentUtils/Models (1.2.2)
+  - XTComponentUtils/XTUtils (1.2.2):
     - XTComponentUtils/LocalDependency
     - XTComponentUtils/Models
 
@@ -45,10 +42,10 @@ SPEC REPOS:
     - XTComponentUtils
 
 SPEC CHECKSUMS:
-  XTBLELogManager: df94d60cb87d0f7c34e669c96cb4648072e9c830
-  XTComponentBLE: 313b47f5abc8a383be4c501d895a863af9c1ba58
-  XTComponentSocket: 83e0d49e342272f5f8bfa54844aff9b1153720f2
-  XTComponentUtils: cdea69754d5468ed773b6587c818a8c2f076636e
+  XTBLELogManager: 11d4cce0df071bdd8d34089eb3c4cdec48822cf3
+  XTComponentBLE: 134a9480a7f7d69d8050d275479b22367726a37a
+  XTComponentSocket: 9ac82a3a65131be7b46f1a9c8d7b7cf6b8394ad0
+  XTComponentUtils: 780004bd808c1244c1f2dd2c37854575e3d18a4d
 
 PODFILE CHECKSUM: a4289248d34749e9beb8b84b08a4e15e1d0b931b
 
