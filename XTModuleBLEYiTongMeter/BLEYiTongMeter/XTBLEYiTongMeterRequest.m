@@ -709,7 +709,7 @@ static id _instace;
     XTBLEManager *requestManager = [XTBLEManager sharedManager];
     
     //log
-    [requestManager log_method:@"清零卡命令" startFilter:@"6830C30B" endFilter:@"长度：17    校验和：是"];
+    [requestManager log_method:@"清零卡命令" startFilter:@"6830C30B" endFilter:@"长度：17    校验和：是"]; 
     
     [requestManager sendSimpleData:requestData startFilter:^BOOL(NSData *receiveData) {
         //开头过滤
